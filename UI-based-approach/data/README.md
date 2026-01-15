@@ -2,7 +2,7 @@
 
 This project uses an insurance claims dataset.
 
-Raw data is not included in this repository due to confidentiality constraints.
+Raw data is included in this repository
 
 ## Expected Columns
 
