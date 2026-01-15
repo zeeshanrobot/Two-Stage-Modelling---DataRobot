@@ -10,6 +10,8 @@ The solution mirrors real-world insurance operations by separating:
 
 Each stage is trained, deployed, and evaluated independently, then connected using **deployment-based inference** to simulate a realistic production workflow.
 
+Link to presentation - [https://docs.google.com/presentation/d/191qN8cPv6ZuI45kZGJM1hZqdaG9P0icbomqhK364jZ8/edit?slide=id.g3b29a8c2362_0_4050#slide=id.g3b29a8c2362_0_4050](url)
+
 ---
 
 ## Business Problem
@@ -63,9 +65,11 @@ This solution uses **two independent DataRobot projects**, one for each modeling
 1. Log in to the **DataRobot UI**
 2. Click **Create New Project**
 3. Upload the insurance claims dataset
-4. Select the target column:
+4. Select the target column:                                                                                                                                                 <img width="953" height="413" alt="1_target_selection" src="https://github.com/user-attachments/assets/e9b0613a-9d70-4e83-8319-929111438b31" />
+ 
 5. Confirm the project type as **Classification**
-6. Enable:
+6. Enable:                                                                                                                                                                  Go to additional setting and select CV with N folds and select start modelling. Alter the metrics of validation of your choice                                             <img width="953" height="398" alt="2_image" src="https://github.com/user-attachments/assets/46f9365e-513b-4356-93c8-3a3fcbfb5c3e" />
+
 - Cross-validation
 - Holdout partition (recommended ~20%)
 7. Start **Autopilot / Experimentation**
@@ -81,6 +85,15 @@ This solution uses **two independent DataRobot projects**, one for each modeling
  - **Deployment ID**
 
 > Screenshots in this section illustrate experiment configuration, leaderboard comparison, and deployment setup.
+ <img width="953" height="409" alt="3_img" src="https://github.com/user-attachments/assets/bce7eb2e-c3f3-4a09-a340-d76054f17c75" />
+
+
+> Play with different threshold values to identify the balance between Precision and Recall
+ <img width="920" height="404" alt="4_img" src="https://github.com/user-attachments/assets/66db53f2-4967-46a1-aafa-217ccbdf4752" />
+
+> Once ok with all metrics deploy that model inside datarobot and choose the threshold value for the model
+ <img width="956" height="353" alt="5_img" src="https://github.com/user-attachments/assets/d77f77eb-ca08-4197-8756-0e3b6dd78fca" />
+
 
 ---
 
@@ -128,5 +141,6 @@ This ensures the regression model is trained exclusively on non-fraudulent claim
 This design closely reflects how real-world insurance platforms operate.
 
 ---
+
 
 
