@@ -12,6 +12,26 @@ Each stage is trained, deployed, and evaluated independently, then connected usi
 
 Link to presentation - [https://docs.google.com/presentation/d/191qN8cPv6ZuI45kZGJM1hZqdaG9P0icbomqhK364jZ8/edit?slide=id.g3b29a8c2362_0_4050#slide=id.g3b29a8c2362_0_4050](url)
 
+*****************************************************************************************************
+
+## How to Run This Project
+
+Follow the steps below to run the notebook locally or in a Jupyter environment.
+
+### Prerequisites
+- Python 3.9 or higher
+- Access to a DataRobot account
+- A valid DataRobot API token
+
+---
+
+### Step 1: Clone the Repository
+
+``` Repository link -
+- download the repo and add upload to codespace
+- Install all the required libraries (pip install -r requirements.txt)
+
+
 ---
 
 ## Business Problem
@@ -192,6 +212,7 @@ This ensures the regression model is trained exclusively on non-fraudulent claim
 This design closely reflects how real-world insurance platforms operate.
 
 ---
+
 
 
 
