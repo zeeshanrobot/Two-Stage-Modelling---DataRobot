@@ -27,7 +27,7 @@ Follow the steps below to run the notebook locally or in a Jupyter environment.
 
 ### Clone the Repository
 
-##  Repository link - [https://github.com/zeeshanrobot/Two-Stage-Modelling---DataRobot/blob/main/UI-based-approach](url)
+- Repository link - [https://github.com/zeeshanrobot/Two-Stage-Modelling---DataRobot/blob/main/UI-based-approach](url)
 - download the repo and add upload to codespace
 - Install all the required libraries (pip install -r requirements.txt)
 - uplaod you own dataset or else go with the datset present in the repository
@@ -211,6 +211,7 @@ This ensures the regression model is trained exclusively on non-fraudulent claim
 This design closely reflects how real-world insurance platforms operate.
 
 ---
+
 
 
 
