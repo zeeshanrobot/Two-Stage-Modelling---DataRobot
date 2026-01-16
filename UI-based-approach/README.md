@@ -25,14 +25,13 @@ Follow the steps below to run the notebook locally or in a Jupyter environment.
 
 ---
 
-### Step 1: Clone the Repository
+### Clone the Repository
 
 ``` Repository link -
 - download the repo and add upload to codespace
 - Install all the required libraries (pip install -r requirements.txt)
+- uplaod you own dataset or else go with the datset present in the repository
 
-
----
 
 ## Business Problem
 
@@ -212,6 +211,7 @@ This ensures the regression model is trained exclusively on non-fraudulent claim
 This design closely reflects how real-world insurance platforms operate.
 
 ---
+
 
 
 
